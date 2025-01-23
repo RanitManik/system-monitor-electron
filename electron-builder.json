@@ -1,0 +1,28 @@
+{
+  "appId": "com.ranitmanik.electron-course",
+  "files": [
+    "dist-electron/**/*",
+    "dist-react/**/*"
+  ],
+  "icon": "./icons/png/1024x1024.png",
+  "asar": true,
+  "mac": {
+    "target": "dmg",
+    "icon": "./icons/mac/icon.icns"
+  },
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ],
+    "icon": "./icons/png",
+    "category": "Utility"
+  },
+  "win": {
+    "target": [
+      "portable",
+      "msi"
+    ],
+    "icon": "./icons/win/icon.ico"
+  }
+}
