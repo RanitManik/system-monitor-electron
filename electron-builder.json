@@ -4,6 +4,7 @@
     "dist-electron/**/*",
     "dist-react/**/*"
   ],
+  "extraResources": ["dist-electron/preload.cjs"],
   "icon": "./icons/png/1024x1024.png",
   "asar": true,
   "mac": {
